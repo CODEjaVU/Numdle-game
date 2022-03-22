@@ -1,0 +1,13 @@
+plan:add number pad
+a clock when hit start
+instruction 
+a chatbox to show how clode the guesses are
+print out previous guess
+make a custom scroll bar
+make an about page
+add a mp3 player
+add scroll animation
+parallax scroll
+custom cursor
+dark mode(checkbox..)
+ 

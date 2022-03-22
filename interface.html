@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Number Guessing Game</title>
+        <link rel="stylesheet" href="decor.css">
+        <script src="logic.js"></script>
+        <link rel="icon" type="image/x-icon" href="photos&music/v logo.png">
+    </head>
+      
+    <body>
+        <!-- <audio controls autoplay>
+            <source src="photos&music/unknown.mp3" type="audio/mpeg">
+          </audio> -->
+    <h1>Guess The Number</h1>
+    
+      
+    <p>The website has selected a random number with 3 different digits from 100 to 999. 
+    See if you can guess it.</p>
+    <p>Example:</p>
+    <p>Number generated:123</p>
+    <p>Guess 134 : 2 numbers are right("1 and 3"), 1 number is in right position("1")!</p>
+    <p>Guess 268 : 1 numbers are right("2"), 0 number is in right position!</p>
+    <p>Guess 567 : 0 number is right, 0 number is in right position!</p>
+    
+    <p style="background-image: url('/photos&music/background#1.jpg');"></p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <div class="form">
+        <label for="guessField" class="enterguess">Enter a guess: </label>
+        <input type = "text" id = "guessField" class = "guessField">
+        <button type = "submit" value = "Submit Guess" 
+               class = "guessSubmit" id = "submitguess" onclick="calculate()">Submit Guess</button>
+        
+        <button type ="submit" value="Play Again"
+               class="playagain" id="playAgain" onClick="refresh(this)">Play Again</button>
+        
+    </div>
+    <ul id="myUL">
+        
+      </ul>
+      
+</body>
+
+</html>
