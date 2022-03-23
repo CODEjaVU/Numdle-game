@@ -16,7 +16,7 @@ body {
     height:40px;
 }
 p, .enterguess{
-    font-size: 20px;
+    font-size: 16px;
 }
 button{
     background-color: rgb(207, 177, 3);
@@ -35,7 +35,7 @@ button:hover{
     background-color: white;
 }
 li{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
