@@ -43,7 +43,7 @@ console.log(m);
    }
    let v;
    if (match==3&rightplace==3){
-      v=m+": You are correct ";
+      v=m+": You are correct . Play again?";
       
    }else {
      v=m+": There are "+match+" correct numbers in the answer and "+rightplace+" numbers in right place";
