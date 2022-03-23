@@ -21,7 +21,6 @@ z=n[i];
 
 let t=[x,y,z];
 
-alert(t);
  
 // counting the number of guesses
 // made for correct Guess
